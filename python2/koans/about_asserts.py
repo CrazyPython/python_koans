@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-from runner.koan import *
+from koan import *
 
 
 class AboutAsserts(Koan):
@@ -62,13 +62,14 @@ class AboutAsserts(Koan):
 
         # Sometimes we will ask you what the class type of an object is.
         #
-        # For example, contemplate the text string "naval". What is it's class type?
+        # For example, contemplate the text string "naval". 
+        # What is it's class type?
         # The koans runner will include this feedback for this koan:
         #
         #   AssertionError: '-=> FILL ME IN! <=-' != <type 'str'>
         #
-        # So "naval".__class__ is equal to <type 'str'>? No not quite. This
-        # is just what it displays. The answer is simply str.
+        # So "naval".__class__ is equal to <type 'str'>? No not quite. 
+        # This is just what it displays. The answer is simply str.
         #
         # See for yourself:
 
